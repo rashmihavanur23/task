@@ -1,6 +1,6 @@
 # Travel Page: team challenge
 
-A tiny HTML and CSS page. Your team of five builds it together using Git and GitHub.
+A tiny HTML and CSS page. Your team of four (or five) builds it together using Git and GitHub.
 
 ## Roles
 
@@ -8,14 +8,14 @@ A tiny HTML and CSS page. Your team of five builds it together using Git and Git
 |---|---|---|
 | Dev 1 | one person | feature: navigation bar |
 | Dev 2 | one person | feature: gallery |
-| Dev 3 | one person | feature: footer |
+| Dev 3 | only in teams of five | feature: footer |
 | Reviewer / Tech Lead | one person | reviews every Pull Request, merges, tags the release |
 | QA | one person | tests `main`, reports bugs as GitHub Issues |
 
 ## Setup (Reviewer first)
 
 1. Click **Use this template > Create a new repository**. Make it **public**.
-2. Settings > Collaborators: add your four teammates.
+2. Settings > Collaborators: add your teammates.
 3. Everyone accepts the invitation, then clones the repo and opens it in VS Code.
 
 ## Features
@@ -28,7 +28,7 @@ Add a `<nav>` with three links (Home, Places, Contact) where it says `NAVBAR GOE
 **Dev 2: `feature/gallery`**
 Add a gallery section with three destination cards (name plus one line each) where it says `GALLERY GOES HERE`. Style it at the end of `style.css`.
 
-**Dev 3: `feature/footer`**
+**Dev 3 (teams of five only): `feature/footer`**
 Add a `<footer>` with a contact email and a short line of text where it says `FOOTER GOES HERE`. Style it at the end of `style.css`.
 
 Then: push your branch, open a Pull Request into `main`, and ask the Reviewer to review it.
@@ -43,7 +43,7 @@ Open `index.html` in a browser on the latest `main` and check:
 - [ ] The heading and intro text are visible
 - [ ] The navigation bar shows three links
 - [ ] The gallery shows three cards
-- [ ] The footer shows contact details
+- [ ] The footer shows contact details (teams of five only)
 - [ ] No leftover `<<<<<<<`, `=======` or `>>>>>>>` lines in any file
 
 Report each problem as a GitHub Issue.
